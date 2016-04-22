@@ -1,0 +1,230 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* GRID */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Starts here */
+
+body {
+  background: #F1F1F1;
+  font-family: Roboto, arial, sans-serif;
+}
+
+header,
+section,
+aside,
+footer {
+  margin: 0 1.5% 24px 1.5%;
+  background: white;
+}
+
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+  background: #F1F1F1;
+}
+
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+  font-size: .8em;
+}
+
+footer {
+  clear: both;
+  margin-bottom: 0;
+  padding-top: 15px;
+  background: white;
+  height: 120px;
+}
+
+header {
+  height: 50px;
+}
+
+.btn {
+  font-size: .7em;
+  font-weight: bold;
+  background: #F8F8F8;
+  margin: 7px 10px;
+  padding: 10px;
+  border: 1px solid #F1F1F1;
+}
+
+#top-logo {
+  padding: 0 15px;
+  float: left;
+}
+
+input[type=text] {
+  width: 40%;
+  padding: 7px 20px;
+  margin: 8px 0 0 50px;
+}
+
+.btn-primary {
+  background: #167AC6;
+  color: white;
+  float: right;
+}
+
+.btn-info {
+  float: right;
+}
+
+.info {
+  background: white;
+  margin: 10px;
+  height: 250px;
+}
+
+.info p {
+  padding: 20px 0 5px 5px;
+  font-size: 1.5em;
+}  
+
+.info img {
+  width: 100%;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: .8em;
+  padding: 5px 10px;
+}
+
+.text {
+  margin: 10px;
+  font-weight: normal;
+  font-size: .8em; 
+}
+
+.comments {
+  background: white;
+  margin: 10px;
+  height: 300px;
+}
+
+.thumb-user {
+  clear: left;
+  float: left;
+  margin: 7px;
+}
+
+.user {
+  margin-left: 10px;
+  padding-top: 15px;
+  color: #3D8EE9;
+  font-weight: bold;
+  font-size: .8em;
+}
+
+.thumbnail {
+  float: left;
+}
+
+.box {
+  width: 65%;
+  float: right;
+}
+
+.title {
+  height: 100px;
+}
+
+#logo {
+  padding: 5px;
+  float: left;
+}
+
+.btn-footer {
+  display: inline-block;
+  font-weight: normal;
+  float: left;
+  margin: 0 15px;
+}
+
+hr {
+  clear: both;
+  width: 98%;
+  color: #E2E2E2;
+}
+
+.footer-link {
+  display: inline-block;
+  font-weight: bold;
+  font-size: .7em;
+  color: #67688D;
+  float: left;
+  margin: 0 15px;
+  padding: 5px;
+}
+
+br {
+  clear: both;
+}
+
+.footer-link-2 {
+  display: inline-block;
+  font-weight: normal;
+  font-size: .7em;
+  color: #67688D;
+  float: left;
+  margin: 0 15px;
+  padding: 5px;
+}
